@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame" />
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item
+          id="wood_deity"
+          src="https://playhybrid-bucket.s3.us-east-2.amazonaws.com/1979_206_380_AAOA_WoodDeity_130k_4k-processed.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      <a-entity gltf-model="#wood_deity"></a-entity>
+    </a-scene>
+  </body>
+</html>
