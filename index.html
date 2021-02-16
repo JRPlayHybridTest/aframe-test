@@ -173,7 +173,7 @@
           var cursor = sc.querySelector('[ar-raycaster]').components.cursor;
           if (cursor.intersection) {
             var marker = document.createElement('a-entity');
-            marker.setAttribute('model', '#wood_deity');
+            marker.setAttribute('gltf-model', '#wood_deity');
             marker.setAttribute('position', {
               x: cursor.intersection.point.x, 
               y: cursor.intersection.point.y + 0.5, 
