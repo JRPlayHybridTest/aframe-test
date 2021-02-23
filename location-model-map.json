@@ -1,0 +1,6 @@
+{
+    "keys": ["DEITY"],
+    "locations": [
+        {"android":"wiz_boots-150k-4096-processed.gltf", "iOS":"https://playhybrid-bucket.s3.us-east-2.amazonaws.com/usdz_bell_x1_low_resolution___1612908258317.usdz"}
+    ]
+}
