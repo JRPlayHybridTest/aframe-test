@@ -9,14 +9,14 @@ fetch('./json/location-model-map.json')
 const loadModel = (data) => {
     let currentLocation = window.location.href;
     var locationKey = currentLocation.substr(currentLocation.indexOf("#") + 1);
-    for (let i = 0; i < data.keys.length; i++) {
-        if (data.keys[i] != locationKey) {
+    for (let i = 0; i < data.entries.length; i++) {
+        if (data.entries[i].key != locationKey) {
             continue;
         }
 
-        console.log(`Loading model with ID: ${data.keys[i]};\nJSON Response: Android: ${data.locations[i].android}; iOS: ${data.locations[i].iOS}`);
+        console.log(`Loading model with ID: ${data.entries[i].key};\nJSON Response: Android: ${data.entries[i].android}; iOS: ${data.entries[i].iOS}`);
         const viewer = document.getElementById("m-viewer");
-        viewer.setAttribute("src", data.locations[i].android);
-        viewer.setAttribute("ios-src", data.locations[i].iOS);
+        viewer.setAttribute("src", data.entries[i].android);
+        viewer.setAttribute("ios-src", data.entries[i].iOS);
     }
 }
