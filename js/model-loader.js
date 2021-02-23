@@ -1,10 +1,13 @@
-let currentLocation = window.location.href;
 let jsonData = 0;
-await fetch('./json/location-model-map.json')
+fetch('./json/location-model-map.json')
     .then(res => res.json())
     .then((data) => {
         jsonData = data;
+        loadModel(data);
 }).catch(err => console.error(err));
 
-var locationKey = currentLocation.substr(currentLocation.indexOf("#"));
-console.log(locationKey);
+const loadModel = (data) => {
+    let currentLocation = window.location.href;
+    var locationKey = currentLocation.substr(currentLocation.indexOf("#"));
+    console.log(locationKey);
+}
