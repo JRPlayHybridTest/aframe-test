@@ -14,7 +14,7 @@ const loadModel = (data) => {
             continue;
         }
 
-        console.log(`Loading model with ID: ${data.keys[i]};\nJSON Response: ${data.locations[i]}`);
+        console.log(`Loading model with ID: ${data.keys[i]};\nJSON Response: Android: ${data.locations[i].android}; iOS: ${data.locations[i].iOS}`);
         const viewer = document.getElementById("m-viewer");
         viewer.setAttribute("src", data.locations[i].android);
         viewer.setAttribute("ios-src", data.locations[i].iOS);
