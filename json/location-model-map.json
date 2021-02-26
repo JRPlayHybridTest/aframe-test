@@ -1,6 +1,8 @@
 {
     "entries": [
-        {"key":"WIZBOOTS", "android":"wiz_boots-150k-4096-processed.gltf", "iOS":"https://playhybrid-bucket.s3.us-east-2.amazonaws.com/usdz_bell_x1_low_resolution___1612908258317.usdz"},
-        {"key":"CUBE", "android":"AnimatedMorphCube.glb", "iOS":"https://playhybrid-bucket.s3.us-east-2.amazonaws.com/usdz_bell_x1_low_resolution___1612908258317.usdz"}
+        {"key":"WIZBOOTS", "android":"wiz_boots-150k-4096-processed.gltf", "iOS":"wiz_boots-150k-4096.usdz"},
+        {"key":"CUBE", "android":"AnimatedMorphCube.glb", "iOS":"AnimatedMorphCube.usdz"},
+        {"key":"DEITY", "android":"wood_deity.glb", "iOS":"wood_deity.usdz"},
+        {"key":"PLANES", "android":"googleTest_20mb.glb", "iOS":"googleTest_20mb.usdz"}
     ]
 }
