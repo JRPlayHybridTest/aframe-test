@@ -18,5 +18,19 @@ const loadModel = (data) => {
         const viewer = document.getElementById("m-viewer");
         viewer.setAttribute("src", data.entries[i].android);
         viewer.setAttribute("ios-src", data.entries[i].iOS);
+        
+        if (locationKey=="BALLOONSKYBOX") {
+            if (!viewer.hasAttribute("skybox-image")){
+                viewer.createAttribute("skybox-image"); 
+            } 
+            viewer.setAttribute("skybox-image", "oberer_kuhberg_1k.hdr");
+        }
+        else {
+            if (viewer.hasAttribute("skybox-image")){
+                viewer.removeAttribute("skybox-image"); 
+            }
+        }
+
+        return;
     }
 }

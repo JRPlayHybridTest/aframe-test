@@ -8,5 +8,6 @@
         {"key":"DRACODEITY", "android":"wood_deity-draco.glb", "iOS":"wood_deity.usdz"},
         {"key":"DRACOEWER", "android":"lidded_ewer-150k-4096-draco.glb", "iOS":"lidded_ewer-150k-4096.usdz"},
         {"key":"BALLOON", "android":"hotAirBalloon-draco.glb", "iOS":"hotAirBalloon.usdz"}
+        {"key":"BALLOONSKYBOX", "android":"hotAirBalloon-draco.glb", "iOS":"hotAirBalloon.usdz"}
     ]
 }
