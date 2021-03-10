@@ -20,9 +20,6 @@ const loadModel = (data) => {
         viewer.setAttribute("ios-src", data.entries[i].iOS);
         
         if (locationKey=="BALLOONSKYBOX") {
-            if (!viewer.hasAttribute("skybox-image")){
-                viewer.createAttribute("skybox-image"); 
-            } 
             viewer.setAttribute("skybox-image", "oberer_kuhberg_1k.hdr");
         }
         else {
