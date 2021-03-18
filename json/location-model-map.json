@@ -1,0 +1,17 @@
+{
+    "entries": [
+        {"key":"WIZBOOTS", "android":"wiz_boots-150k-4096-processed.gltf", "iOS":"wiz_boots-150k-4096.usdz"},
+        {"key":"CUBE", "android":"AnimatedMorphCube.glb", "iOS":"AnimatedMorphCube.usdz"},
+        {"key":"DEITY", "android":"wood_deity.glb", "iOS":"wood_deity.usdz"},
+        {"key":"PLANES", "android":"googleTest_20mb.glb", "iOS":"googleTest_20mb.usdz"},
+        {"key":"DRACOWIZBOOTS", "android":"wiz_boots-150k-4096-draco.glb", "iOS":"wiz_boots-150k-4096.usdz"},
+        {"key":"DRACODEITY", "android":"wood_deity-draco.glb", "iOS":"wood_deity.usdz"},
+        {"key":"DRACOEWER", "android":"lidded_ewer-150k-4096-draco.glb", "iOS":"lidded_ewer-150k-4096.usdz"},
+        {"key":"BALLOON", "android":"hotAirBalloon-draco.glb", "iOS":"hotAirBalloon.usdz"},
+        {"key":"BALLOONSKYBOX", "android":"hotAirBalloon-draco.glb", "iOS":"hotAirBalloon.usdz"},
+        {"key":"TINABOSS", "android":"tina_boss-draco.glb", "iOS":"tina_boss.usdz"},
+        {"key":"ROOSTERSEAL", "android":"roosterseal-draco.glb", "iOS":"roosterseal.usdz"},
+        {"key":"ROOSTERSEALTEST", "android":"rooster_5_update.glb", "iOS":"rooster_5_update.usdz"},
+        {"key":"CESIUM", "android":"CesiumMan.glb", "iOS":"CesiumMan.usdz"}
+    ]
+}

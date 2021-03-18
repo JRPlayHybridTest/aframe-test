@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="AR Test" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        
+        <!-- Import the component -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+        <script src="js/model-loader.js"></script>
+
+        <style>
+            model-viewer{
+                width: 400px;
+                height: 600px;
+                margin: 0 auto;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <script src="" async defer></script>
+        <!--
+        <model-viewer src="https://drive.google.com/uc?export=download&id=1ZgcBBG5dUXeEEia-a9nQHe2sgYHTmIIA" alt="Wood Diety" camera-controls ar ios-src="assets\bottle\CHAHIN_BOTTLE_OF_SODA.usdz"></model-viewer>
+       --> 
+        
+        <model-viewer id="m-viewer"
+            src="AnimatedMorphCube.glb" alt="wood diety" ios-src="https://playhybrid-bucket.s3.us-east-2.amazonaws.com/usdz_bell_x1_low_resolution___1612908258317.usdz"
+            camera-controls ar ar-placement="floor" autoplay quick-look-browsers="safari chrome" background-color="#222"
+            >
+        </model-viewer>
+        
+    </body>
+</html>
