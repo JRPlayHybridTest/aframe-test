@@ -13,6 +13,7 @@
         {"key":"ROOSTERSEAL", "android":"roosterseal-draco.glb", "iOS":"roosterseal.usdz"},
         {"key":"ROOSTERSEALTEST", "android":"rooster_8_ANDROID.glb", "iOS":"rooster_8_ios.usdz"},
         {"key":"ROOSTERSEALTEST2", "android":"rooster_8_noemissive.glb", "iOS":"rooster_8_noemissive.usdz"},
+        {"key":"ROOSTERSEALWORKING", "android":"rooster_8_ANDROID.glb", "iOS":"rooster_6_test_a.usdz"},
         {"key":"SCALE01", "android":"rooster_6.glb", "iOS":"rooster_6_01.usdz"},
         {"key":"SCALE1", "android":"rooster_6.glb", "iOS":"rooster_6_1.usdz"},
         {"key":"SCALE100", "android":"rooster_6.glb", "iOS":"rooster_6_100.usdz"},
