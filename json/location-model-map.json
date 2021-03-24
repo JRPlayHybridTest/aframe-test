@@ -19,6 +19,6 @@
         {"key":"SCALE100", "android":"rooster_6.glb", "iOS":"rooster_6_100.usdz"},
         {"key":"PLAYGROUND", "android":"playground.glb", "iOS":"playground.usdz"},
         {"key":"CESIUM", "android":"CesiumMan.glb", "iOS":"CesiumMan.usdz"},
-        {"key":"ANNATEST", "android":"RENAME_ME.glb", "iOS":"RENAME_E.usdz"}
+        {"key":"ANNATEST", "android":"hotAirBalloon.glb", "iOS":"RENAME_ME.usdz"}
     ]
 }
