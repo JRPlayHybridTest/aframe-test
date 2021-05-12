@@ -10,7 +10,7 @@
         {"key":"BALLOON", "android":"hotAirBalloon-draco.glb", "iOS":"hotAirBalloon.usdz"},
         {"key":"BALLOONSKYBOX", "android":"hotAirBalloon-draco.glb", "iOS":"hotAirBalloon.usdz"},
         {"key":"TINABOSS", "android":"tina_boss-draco.glb", "iOS":"tina_boss.usdz"},
-        {"key":"ROOSTERSEAL", "android":"rooster_8_ANDROID.glb", "iOS":"rooster_8_MAGICK_4.usdz"},
+        {"key":"ROOSTERSEAL", "android":"rooster_8_ANDROID.glb", "iOS":"rooster_8_MAGICK_3.usdz"},
         {"key":"ROOSTERSEALTEST", "android":"rooster_8_ANDROID.glb", "iOS":"rooster_8_E16_G07_O-002.usdz"},
         {"key":"ROOSTERSEALTEST2", "android":"rooster_8_noemissive.glb", "iOS":"rooster_8_noemissive.usdz"},
         {"key":"ROOSTERSEALWORKING", "android":"rooster_8_ANDROID.glb", "iOS":"rooster_6_test_a.usdz"},
