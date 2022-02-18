@@ -21,6 +21,6 @@
         {"key":"CESIUM", "android":"CesiumMan.glb", "iOS":"CesiumMan.usdz"},
         {"key":"ANNATEST", "android":"hotAirBalloon.glb", "iOS":"RENAME_ME.usdz"},
         {"key":"REX", "android":"rex01.glb", "iOS":"rex01.usdz"},
-        {"key":"IPFS", "android":"https://bafybeiafxccfxqf5bwy3wumgujn3pm2xj4rfdy6mpim3rz2rv26ko3gzta.ipfs.dweb.link/rooster_8_ANDROID.glb", "iOS":"rex01.usdz"}
+        {"key":"IPFS", "android":"https://bafybeiafxccfxqf5bwy3wumgujn3pm2xj4rfdy6mpim3rz2rv26ko3gzta.ipfs.dweb.link/rooster_8_ANDROID.glb", "iOS":"https://bafybeiagqrkgvoe4gyu2ms4crigouzscltuo5y2hoaiq7u3itamkk74qze.ipfs.dweb.link/rooster_8_MAGICK_4_rs.usdz"}
     ]
 }
