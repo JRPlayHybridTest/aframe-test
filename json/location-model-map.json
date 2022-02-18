@@ -21,6 +21,6 @@
         {"key":"CESIUM", "android":"CesiumMan.glb", "iOS":"CesiumMan.usdz"},
         {"key":"ANNATEST", "android":"hotAirBalloon.glb", "iOS":"RENAME_ME.usdz"},
         {"key":"REX", "android":"rex01.glb", "iOS":"rex01.usdz"},
-        {"key":"IPFS", "android":"https://bafybeiafxccfxqf5bwy3wumgujn3pm2xj4rfdy6mpim3rz2rv26ko3gzta.ipfs.dweb.link", "iOS":"rex01.usdz"},
+        {"key":"IPFS", "android":"https://bafybeiafxccfxqf5bwy3wumgujn3pm2xj4rfdy6mpim3rz2rv26ko3gzta.ipfs.dweb.link", "iOS":"rex01.usdz"}
     ]
 }
