@@ -18,7 +18,7 @@ const loadModel = (data) => {
         console.log(`Loading model with ID: ${data.entries[i].key};\nJSON Response: Android: ${data.entries[i].android}; iOS: ${data.entries[i].iOS}`);
         const viewer = document.getElementById("m-viewer");
         viewer.setAttribute("src", data.entries[i].android);
-        viewer.setAttribute("ios-src", data.entries[i].iOS);
+        //viewer.setAttribute("ios-src", data.entries[i].iOS);
         
         if (locationKey=="BALLOONSKYBOX") {
             viewer.setAttribute("skybox-image", "oberer_kuhberg_1k.hdr");
